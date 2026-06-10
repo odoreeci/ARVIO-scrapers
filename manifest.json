@@ -1,41 +1,40 @@
-[
-  {
-    "internalName": "multiembed_aggregator",
-    "name": "Multi-Embed Aggregator",
-    "description": "Aggregates video sources from multiple embed services (vidking, 1embed, 2embed, vidlink, vidsrc, embed.su) used by streaming aggregation sites.",
-    "version": "1.0.0",
-    "author": "ARVIO Community",
-    "url": "https://odoreeci.github.io/ARVIO-scrapers/multiembed_scraper.js",
-    "iconUrl": "https://odoreeci.github.io/ARVIO-scrapers/icon.png",
-    "tvTypes": ["movie", "tv"],
-    "status": 1,
-    "contentLanguage": ["en"],
-    "supportedTypes": ["movie", "series"]
-  },
-  {
-    "internalName": "vidking_scraper",
-    "name": "Vidking Embed Scraper",
-    "description": "Scrapes sources from Vidking.net embed player (used by cineby.at and others).",
-    "version": "1.0.0",
-    "author": "ARVIO Community",
-    "url": "https://odoreeci.github.io/ARVIO-scrapers/vidking_scraper.js",
-    "iconUrl": "https://odoreeci.github.io/ARVIO-scrapers/icons/vidking.png",
-    "tvTypes": ["movie", "tv"],
-    "status": 1,
-    "contentLanguage": ["en"],
-    "supportedTypes": ["movie", "series"]
-  },
-  {
-    "internalName": "1embed_scraper",
-    "name": "1embed.cc Scraper",
-    "description": "Scrapes sources from 1embed.cc embed player (used by bcine.ru and others).",
-    "version": "1.0.0",
-    "author": "ARVIO Community",
-    "url": "https://odoreeci.github.io/ARVIO-scrapers/1embed_scraper.js",
-    "iconUrl": "https://odoreeci.github.io/ARVIO-scrapers/icons/1embed.png",
-    "tvTypes": ["movie", "tv"],
-    "status": 1,
-    "contentLanguage": ["en"],
-    "supportedTypes": ["movie", "series"]
-  }
-]
+﻿{
+  "id": "arvio-community-scrapers",
+  "name": "ARVIO Community Scrapers",
+  "description": "Streaming embed scrapers for ARVIO",
+  "plugins": [
+    {
+      "id": "multiembed_aggregator",
+      "name": "Multi-Embed Aggregator",
+      "version": "1.0.0",
+      "description": "Aggregates video sources from multiple embed services (vidking, 1embed, 2embed, vidlink, vidsrc, embed.su) used by streaming aggregation sites.",
+      "author": "ARVIO Community",
+      "url": "https://odoreeci.github.io/ARVIO-scrapers/multiembed_scraper.js",
+      "iconUrl": "https://odoreeci.github.io/ARVIO-scrapers/icon.png",
+      "types": ["movie", "tv"],
+      "languages": ["en"]
+    },
+    {
+      "id": "vidking_scraper",
+      "name": "Vidking Embed Scraper",
+      "version": "1.0.0",
+      "description": "Scrapes sources from Vidking.net embed player (used by cineby.at and others).",
+      "author": "ARVIO Community",
+      "url": "https://odoreeci.github.io/ARVIO-scrapers/vidking_scraper.js",
+      "iconUrl": "https://odoreeci.github.io/ARVIO-scrapers/icons/vidking.png",
+      "types": ["movie", "tv"],
+      "languages": ["en"]
+    },
+    {
+      "id": "1embed_scraper",
+      "name": "1embed.cc Scraper",
+      "version": "1.0.0",
+      "description": "Scrapes sources from 1embed.cc embed player (used by bcine.ru and others).",
+      "author": "ARVIO Community",
+      "url": "https://odoreeci.github.io/ARVIO-scrapers/1embed_scraper.js",
+      "iconUrl": "https://odoreeci.github.io/ARVIO-scrapers/icons/1embed.png",
+      "types": ["movie", "tv"],
+      "languages": ["en"]
+    }
+  ]
+}
