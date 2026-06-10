@@ -1,0 +1,41 @@
+[
+  {
+    "internalName": "multiembed_aggregator",
+    "name": "Multi-Embed Aggregator",
+    "description": "Aggregates video sources from multiple embed services (vidking, 1embed, 2embed, vidlink, vidsrc, embed.su) used by streaming aggregation sites.",
+    "version": "1.0.0",
+    "author": "ARVIO Community",
+    "url": "https://github.com/ProdigyV21/ARVIO-scrapers/releases/download/v1.0.0/multiembed_scraper.js",
+    "iconUrl": "https://raw.githubusercontent.com/ProdigyV21/ARVIO-scrapers/main/icon.png",
+    "tvTypes": ["movie", "tv"],
+    "status": 1,
+    "contentLanguage": ["en"],
+    "supportedTypes": ["movie", "series"]
+  },
+  {
+    "internalName": "vidking_scraper",
+    "name": "Vidking Embed Scraper",
+    "description": "Scrapes sources from Vidking.net embed player (used by cineby.at and others).",
+    "version": "1.0.0",
+    "author": "ARVIO Community",
+    "url": "https://github.com/ProdigyV21/ARVIO-scrapers/releases/download/v1.0.0/vidking_scraper.js",
+    "iconUrl": "https://raw.githubusercontent.com/ProdigyV21/ARVIO-scrapers/main/icons/vidking.png",
+    "tvTypes": ["movie", "tv"],
+    "status": 1,
+    "contentLanguage": ["en"],
+    "supportedTypes": ["movie", "series"]
+  },
+  {
+    "internalName": "1embed_scraper",
+    "name": "1embed.cc Scraper",
+    "description": "Scrapes sources from 1embed.cc embed player (used by bcine.ru and others).",
+    "version": "1.0.0",
+    "author": "ARVIO Community",
+    "url": "https://github.com/ProdigyV21/ARVIO-scrapers/releases/download/v1.0.0/1embed_scraper.js",
+    "iconUrl": "https://raw.githubusercontent.com/ProdigyV21/ARVIO-scrapers/main/icons/1embed.png",
+    "tvTypes": ["movie", "tv"],
+    "status": 1,
+    "contentLanguage": ["en"],
+    "supportedTypes": ["movie", "series"]
+  }
+]

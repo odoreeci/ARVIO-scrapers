@@ -1,0 +1,45 @@
+{
+  "name": "Multi-Embed Aggregator",
+  "description": "Aggregates video sources from multiple embed services (vidking, 1embed, 2embed, vidlink, vidsrc, embed.su) used by streaming aggregation sites like cineby.at, bcine.ru, flixer.su, flickystream.su, rivestream.app, etc.",
+  "version": "1.0.0",
+  "internalName": "multiembed_aggregator",
+  "author": "ARVIO Community",
+  "url": "https://github.com/your-repo/multiembed-scraper",
+  "iconUrl": "https://raw.githubusercontent.com/your-repo/main/icon.png",
+  "tvTypes": ["movie", "tv"],
+  "status": 1,
+  "contentLanguage": ["en"],
+  "supportedTypes": ["movie", "series"],
+  "scraperFile": "multiembed_scraper.js",
+  "pluginClass": "MultiEmbedPlugin",
+  "requires": {
+    "network": true,
+    "fetch": true
+  },
+  "permissions": [
+    "network_access",
+    "fetch_metadata"
+  ],
+  "sourceSites": [
+    "vidking.net",
+    "1embed.cc",
+    "2embed.cc",
+    "vidlink.org",
+    "vidsrc.me",
+    "embed.su",
+    "multiembed.mov"
+  ],
+  "aggregatedSites": [
+    "cineby.at",
+    "bcine.ru",
+    "flixer.su",
+    "flickystream.su",
+    "rivestream.app",
+    "cinevibe.asia",
+    "popcornmovies.org"
+  ],
+  "notes": "This is a meta-scraper that tries multiple embed backends. It uses TMDB IDs directly, so it works with any site that uses these embed services.",
+  "changelog": [
+    "1.0.0 - Initial release with support for 7 embed services"
+  ]
+}
